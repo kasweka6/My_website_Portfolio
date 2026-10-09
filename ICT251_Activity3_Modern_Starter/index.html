@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A personal portfolio website created for ICT251 Activity 3.">
+  <title>My Digital Space | Personal Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="My Digital Space home">
+        <span class="brand-mark">K</span>
+        <span>My<span class="brand-accent">Space</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button"
+        aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#learning">Learning</a>
+        <a href="#gallery">Photos</a>
+        <a href="#media">Media</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-cta">Contact me</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">
+          <span aria-hidden="true">◐</span> Theme
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> STUDENT • CREATOR • LIFELONG LEARNER</p>
+          <h1>Hello, I'm <span class="gradient-text">Kashweka Chuumba</span></h1>
+          <p class="hero-lead">Welcome to my digital space — a little introduction to who I am, what I enjoy, and what I am learning in Computer Science.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">Get to know me <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#projects">Explore my work</a>
+          </div>
+          <div class="hero-stats" aria-label="Portfolio highlights">
+            <div><strong>03</strong><span>Hobbies</span></div>
+            <div><strong>03</strong><span>Learning goals</span></div>
+            <div><strong>04+</strong><span>Web features</span></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Decorative profile card">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="profile-top"><span class="mini-dot"></span><span class="mini-dot"></span><span class="mini-dot"></span><span class="card-label">PROFILE / 001</span></div>
+            <div class="avatar-placeholder" aria-hidden="true">KC</div>
+            <p class="profile-kicker">CURRENT FOCUS</p>
+            <h2>Learning by building.</h2>
+            <p class="muted">HTML · CSS · JavaScript</p>
+            <div class="skill-pills"><span>Curiosity</span><span>Growth</span><span>Creativity</span></div>
+          </div>
+          <div class="floating-chip chip-top">✦ Keep learning</div>
+          <div class="floating-chip chip-bottom"><span class="status-dot"></span> Building my future</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / THE PERSON BEHIND THE SCREEN</p>
+          <h2>A little <span class="gradient-text">about me.</span></h2>
+          <p>My name is Kashweka Chuumba. I am a hardworking, determined, and ambitious Computer Science student. I enjoy learning new things, solving problems, and improving my skills in technology. I believe in working hard, staying focused, and never giving up on my dreams. My goal is to succeed academically and professionally.</p>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card about-card">
+            <div class="icon-box">✧</div>
+            <h3>Who I am</h3>
+            <p>I am a Computer Science student who is developing my digital skills one step at a time. I enjoy discovering how technology works and finding practical ways to use what I learn. I believe that patience, practice, and curiosity can help me grow both academically and personally.</p>
+            <p class="muted small-text">My goals in this course is to able to develop a site from scratch after a period of 2 months.</p>
+          </article>
+          <div class="quick-facts">
+            <div class="fact-card"><span class="fact-icon">⌘</span><div><h3>My field</h3><p>Computer Science</p></div></div>
+            <div class="fact-card"><span class="fact-icon">◎</span><div><h3>My approach</h3><p>Learn, practise, improve</p></div></div>
+            <div class="fact-card"><span class="fact-icon">↗</span><div><h3>My goal</h3><p>Build useful digital solutions</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="hobbies">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / WHAT I ENJOY</p>
+          <h2>Things that make me <span class="gradient-text">me.</span></h2>
+          <p>Keep three hobbies and personalise the descriptions.</p>
+        </div>
+        <div class="three-cards">
+          <article class="hobby-card"><div class="large-icon icon-purple">♫</div><h3>Music</h3><p>I enjoy listening to music because it helps me relax, focus, and express my mood.</p><span class="card-number">HOBBY 01</span></article>
+          <article class="hobby-card"><div class="large-icon icon-blue">⌘</div><h3>Technology</h3><p>I like learning about computers and exploring how websites and applications are created.</p><span class="card-number">HOBBY 02</span></article>
+          <article class="hobby-card"><div class="large-icon icon-orange">✎</div><h3>Reading</h3><p>Reading helps me discover new ideas, improve my knowledge, and keep learning beyond class.</p><span class="card-number">HOBBY 03</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="learning">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">03 / THE JOURNEY AHEAD</p>
+          <h2>My learning <span class="gradient-text">plan.</span></h2>
+          <p>Use these steps as a starting point and adjust them to match your own plan.</p>
+        </div>
+        <div class="learning-layout">
+          <div class="timeline">
+            <article class="timeline-item"><span class="timeline-step">01</span><div><h3>Strengthen the basics</h3><p>Practise HTML structure, CSS styling, and JavaScript fundamentals regularly.</p></div></article>
+            <article class="timeline-item"><span class="timeline-step">02</span><div><h3>Build small projects</h3><p>Create simple websites and improve them using feedback and testing.</p></div></article>
+            <article class="timeline-item"><span class="timeline-step">03</span><div><h3>Learn version control</h3><p>Use Git and GitHub to save versions of my work and share projects online.</p></div></article>
+          </div>
+          <div class="table-card">
+            <h3>My weekly learning tracker</h3>
+            <p class="muted small-text">Example plan — edit it to fit your schedule.</p>
+            <div class="table-scroll">
+              <table>
+                <caption>Sample weekly study plan</caption>
+                <thead><tr><th scope="col">Day</th><th scope="col">Topic</th><th scope="col">Target</th></tr></thead>
+                <tbody>
+                  <tr><td>Monday</td><td>HTML</td><td>Practise structure</td></tr>
+                  <tr><td>Wednesday</td><td>CSS</td><td>Style a page</td></tr>
+                  <tr><td>Friday</td><td>JavaScript</td><td>Build one feature</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">04 / MOMENTS & MEMORIES</p>
+          <h2>My photo <span class="gradient-text">gallery.</span></h2>
+          <p>Replace the sample illustrations with three photos you are allowed to use. Keep meaningful alt text and captions.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item"><button class="gallery-open" type="button" data-image="images/photo1.png" data-caption="A moment that matters to me." aria-label="View photo one"><img src="images/photo1.png" alt="Abstract placeholder for photo one"><span class="zoom-icon" aria-hidden="true">↗</span></button><figcaption><span>01</span> A moment that matters</figcaption></figure>
+          <figure class="gallery-item"><button class="gallery-open" type="button" data-image="images/photo2.png" data-caption="Something I enjoy doing." aria-label="View photo two"><img src="images/photo2.png" alt="Abstract placeholder for photo two"><span class="zoom-icon" aria-hidden="true">↗</span></button><figcaption><span>02</span> Something I enjoy</figcaption></figure>
+          <figure class="gallery-item"><button class="gallery-open" type="button" data-image="images/photo3.png" data-caption="A place or experience I remember." aria-label="View photo three"><img src="images/photo3.png" alt="Abstract placeholder for photo three"><span class="zoom-icon" aria-hidden="true">↗</span></button><figcaption><span>03</span> A favourite memory</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="media">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">05 / SOUND & MOTION</p>
+          <h2>My media <span class="gradient-text">corner.</span></h2>
+          <p>Add your own short video and audio file from Activity 2. Update the filenames if yours are different.</p>
+        </div>
+        <div class="media-grid">
+          <article class="media-card"><div class="media-header"><span class="media-icon">▶</span><div><h3>A short video</h3><p class="muted small-text">A clip that represents an interest or project</p></div></div>
+            <video controls preload="metadata" poster="images/video-poster.svg">
+              <source src="videos/my-video.mp4" type="video/mp4">
+              Your browser does not support the video element.
+            </video>
+            <p class="media-summary"><strong>Video summary:</strong> This is a video where I was talking about my mom.</p>
+          </article>
+          <article class="media-card"><div class="media-header"><span class="media-icon">♫</span><div><h3>An audio clip</h3><p class="muted small-text">A short sound or recording</p></div></div>
+            <div class="audio-panel"><span class="audio-wave" aria-hidden="true">▂ ▅ ▃ ▇ ▄ ▆ ▂ ▅ ▇ ▃ ▄ ▆ ▂</span><audio controls preload="metadata"><source src="videos/my-audio.mp4" type="audio/mpeg">Your browser does not support the audio element.</audio></div>
+            <p class="media-summary"><strong>Audio summary:</strong> This audio has a sound track of me singing.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">06 / WHAT I'M BUILDING</p>
+          <h2>Projects & <span class="gradient-text">skills.</span></h2>
+          <p>Im able to design my website using css and java script for navigation.</p>
+        </div>
+        <div class="project-tools"><label for="project-search">Search projects or skills</label><div class="search-wrap"><span aria-hidden="true">⌕</span><input id="project-search" type="search" placeholder="Try HTML, CSS, or JavaScript"><button id="clear-search" class="clear-search" type="button">Clear</button></div><p id="search-status" class="muted small-text" aria-live="polite">Showing all 3 examples.</p></div>
+        <div class="project-grid" id="project-grid">
+          <article class="project-card" data-search="html website structure beginner">
+            <div class="project-top"><span class="project-tag">FOUNDATIONS</span><span class="project-symbol">01</span></div><h3>Personal website</h3><p>A website that introduces me and shares my interests and goals.</p><button class="details-toggle" type="button" aria-expanded="false" aria-controls="project-detail-1">View details <span aria-hidden="true">＋</span></button><div class="project-details" id="project-detail-1" hidden><p><strong>Skills:</strong> HTML structure, semantic elements, and links.</p><p><strong>Next step:</strong> Add personal content and test every section.</p></div>
+          </article>
+          <article class="project-card" data-search="css responsive design styling">
+            <div class="project-top"><span class="project-tag">DESIGN</span><span class="project-symbol">02</span></div><h3>Responsive layout</h3><p>A page layout that adapts to phone, tablet, and computer screens.</p><button class="details-toggle" type="button" aria-expanded="false" aria-controls="project-detail-2">View details <span aria-hidden="true">＋</span></button><div class="project-details" id="project-detail-2" hidden><p><strong>Skills:</strong> CSS grid, flexible sizing, and media queries.</p><p><strong>Next step:</strong> Test the page at narrow and wide screen widths.</p></div>
+          </article>
+          <article class="project-card" data-search="javascript form validation dom events">
+            <div class="project-top"><span class="project-tag">INTERACTIVITY</span><span class="project-symbol">03</span></div><h3>Interactive contact form</h3><p>A form that checks input and previews the information on the page.</p><button class="details-toggle" type="button" aria-expanded="false" aria-controls="project-detail-3">View details <span aria-hidden="true">＋</span></button><div class="project-details" id="project-detail-3" hidden><p><strong>Skills:</strong> Events, validation, and DOM updates.</p><p><strong>Next step:</strong> Test blank fields and invalid email addresses.</p></div>
+          </article>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>No matching examples. Try another search term.</p>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <p class="eyebrow">07 / LET'S CONNECT</p>
+          <h2>Have a question?<br><span class="gradient-text">Say hello.</span></h2>
+          <p>This form demonstrates front-end validation only. It does not send a message to an email address or save it to a server.</p>
+          <div class="contact-note"><span class="note-icon">i</span><p><strong>Browser demonstration only</strong><br>No message is sent or stored by this website.</p></div>
+        </div>
+        <form class="contact-form glass-card" id="contact-form" novalidate>
+          <div class="form-heading"><h3>Contact form</h3><p class="muted small-text">Fields marked * are required.</p></div>
+          <div class="form-field"><label for="name">Your name <span>*</span></label><input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error"><small class="field-error" id="name-error"></small></div>
+          <div class="form-field"><label for="email">Email address <span>*</span></label><input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error"><small class="field-error" id="email-error"></small></div>
+          <div class="form-field"><label for="message">Your message <span>*</span></label><textarea id="message" name="message" rows="4" required aria-describedby="message-error"></textarea><small class="field-error" id="message-error"></small></div>
+          <button class="button button-primary form-submit" type="submit">Validate & preview <span aria-hidden="true">↗</span></button>
+          <div class="form-preview" id="form-preview" role="status" aria-live="polite" hidden></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">K</span><span>My<span class="brand-accent">Space</span></span></a><p>Designed and built as part of ICT251 Activity 3.</p><div class="footer-links"><a href="#home">Back to top ↑</a><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a></div></div>
+    <div class="container footer-bottom"><span>© <span id="current-year">2026</span> Kashweka Chuumba</span><span>Made with curiosity and code.</span></div>
+  </footer>
+
+  <dialog class="lightbox" id="gallery-dialog" aria-label="Photo viewer">
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close photo viewer">×</button>
+    <img id="lightbox-image" src="images/photo1.png" alt="">
+    <p id="lightbox-caption"></p>
+  </dialog>
+</body>
+</html>
